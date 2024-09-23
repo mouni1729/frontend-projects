@@ -1,0 +1,14 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: sticky;
+
+
+
+}
+.box2{
+    height:300px;
+    width:300px;
+    background-color: hsl(0, 0%, 8%);
+}

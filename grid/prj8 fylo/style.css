@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.navbar{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    
+    
+    
+}
+li{
+    display: inline-block;
+   
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    margin-right: 40px;
+    color:  hsl(243, 87%, 12%); 
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 40px;
+   
+}
+.para>h1{
+    width: 500px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 15px;
+    line-height: 40px;
+    color:black; 
+    
+}
+.para1{
+    width: 510px;
+    color: hsl(243, 87%, 12%); 
+}
+input{
+    height: 36px;
+    width: 250px;
+    margin-top: 20px;
+}
+.get-button{
+    height: 36px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+.image>img{
+    height: 380px;
+    width: 500px;
+    position: relative;
+    bottom: 70px;
+}
+.main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(./bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.box2{
+    margin-left: 40px;
+}
+.box2>h1{
+    font-weight: 500px;
+    font-size: 30px;
+}
+.box2>p{
+    padding-top: 20px;
+    width: 530px;
+}
+.icon{
+    padding-top: 20px;
+    text-decoration:underline;
+    text-decoration-color: hsl(170, 45%, 43%);
+    
+}
+.icon>a{
+    color: hsl(170, 45%, 43%);
+}
+.box3{
+    height: 220px;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.box3>p{
+    width: 340px;
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.profile>img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    float: left;
+}
+.heading{
+    margin-left: 45px;
+    font-size: 10px;
+    padding-top: 10px;
+    
+}
+.heading>p{
+    font-size: 10px;
+    color: hsl(243, 87%, 12%);
+}
+.favicon2>img{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 50px;
+}
+.main3{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(238, 22%, 44%);
+    margin-top: 30px;
+    color: white;
+}
+.left{
+    position: relative;
+    right: 80px;
+}
+.left>p{
+    width: 500px;
+    color: rgba(255, 255, 255, 0.74);
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.input-btn>input{
+    height: 36px;
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 20px;
+    display: block;
+}
+.Get{
+    height: 36px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    
+    
+
+}
+.main4{
+    height: 300px;
+    width: 100%;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 40px;
+   
+}
+.row1>img{
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+.phone{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.phone>img{
+    float: left;
+    padding-right:20px ;
+
+ 
+}
+.email>img{
+    float: left;
+    padding-right: 20px;
+}
+.list1{
+    float: left;
+    position: relative;
+    left: 400px;
+    bottom: 60px;
+
+}
+.list2{
+    position: relative;
+    left: 280px;
+    bottom: 30px;
+}
+li a{
+    color: white;
+}
+.icons{
+    position: relative;
+    left: 900px;
+    bottom: 120px;
+    
+}
