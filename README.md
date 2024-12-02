@@ -1,1 +1,2 @@
-git rm file.txt
+this is my first repository
+Author --Mounika G
